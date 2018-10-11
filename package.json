@@ -1,6 +1,6 @@
 {
   "name": "insert-relative-path",
-  "displayName": "insert-relative-path",
+  "displayName": "Insert relative path",
   "description": "",
   "version": "0.0.1",
   "publisher": "mattconde",
@@ -13,6 +13,14 @@
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "relative",
+    "path",
+    "file",
+    "context",
+    "menu",
+    "context menu"
   ],
   "activationEvents": [
     "onCommand:extension.importRelativePath"
