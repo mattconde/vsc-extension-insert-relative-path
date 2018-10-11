@@ -33,9 +33,7 @@ function activate(context) {
     "extension.importRelativePath",
     function(clickedTab) {
       if (!clickedTab || (!clickedTab && !clickedTab.fsPath)) {
-        vscode.window.showErrorMessage(
-          "Use command from the context menu, plz.\n(Try right clicking on an open tab.)"
-        );
+        vscode.window.showErrorMessage("Try using the context menu.");
       } else {
         insertString(getRelativePath(clickedTab.fsPath));
       }
